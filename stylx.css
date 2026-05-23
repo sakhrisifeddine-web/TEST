@@ -1,20 +1,28 @@
 body {
   background-color: #F3E3D0;
- 
-margin: 0px;
+  margin: 0px;
 }
+
 section{
   background-color: #00154f;
-margin: 2px;
+  margin: 2px;
   padding: 13px;
   border-radius: 8px;
 }
+
 h2{
   color: snow;
   font-family: 'Permanent Marker', cursive;
   text-align: center;
   padding: 20px;
 }
+
+a{
+  style: none;
+  text-decoration: none;
+  color: #00154f;
+}
+
 .sifou {
   background-image: url(images/main_img.png);
   height: 500px;
