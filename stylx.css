@@ -23,7 +23,6 @@ h2{
   padding: 20px;
   background-color: #c5d6d6;
   border-radius: 8px;
-  margin-left: 420px;
   width: 300px;
   margin-top: 9x;
 }
@@ -57,6 +56,7 @@ nav {
   text-decoration: none;
 }
 
+
 #navbrand{
   font-family: 'Permanent Marker', cursive;
   color: rgb(255, 255, 255);
@@ -79,7 +79,7 @@ nav {
 }
 
 div .car-card {
-  width: 24%;
+  width: 350px;
   padding: 0;
   margin-bottom: 30px;
   margin-left: 5px;
@@ -136,13 +136,33 @@ border-radius: 4px;
 border: 1px solid #ffffff;
 }
 
-#brands{
-  display: flex;
-  justify-content: space-around;
+.brands{
+  color: snow; 
+  background-color: #9d9f9f;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
   flex-wrap: wrap;
   padding: 30px;
-  background-color: #9d9f9f;
-  border-radius: 8px;
+  gap: 20px;
+  justify-content: center;
+  display: flex;
+}
+
+.brands .h2{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.brands-logo{
+  margin-left: 3px;
+  height: 150px;
+  border: 1px solid #ffffff; 
+  overflow: hidden;
+  border-radius: 8px; 
+  display: inline-block;
+  margin-right: 3px;
+  width: 15%;
 }
 
 .cat-card {
@@ -154,10 +174,9 @@ border: 1px solid #ffffff;
   display: inline-block;
   margin-right: 3px;
   width: 15%;
-
 }
 
-#categeories{
+#categeories-item{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -206,7 +225,56 @@ footer{
 
 }
 .DEALS{
+  color: snow; 
   background-color: #9d9f9f;
-  color: snow;
-  
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+  flex-wrap: wrap;
+  padding: 30px;
+  gap: 20px;
+  justify-content: center;
+  display: flex;
+}
+
+
+.DEALS h2{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.categories{
+  color: snow; 
+  background-color: #9d9f9f;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+  flex-wrap: wrap;
+  padding: 30px;
+  gap: 20px;
+  justify-content: center;
+  display: flex;
+
+}
+
+.categories h2{
+  width: 100%;
+  margin-bottom: 20px;
+
+}
+
+
+.category-name{
+  margin-left: 3px;
+  height: 150px;
+  border: 1px solid #ffffff; 
+  overflow: hidden;
+  border-radius: 8px; 
+  display: inline-block;
+  margin-right: 3px;
+  width: 15%;
+}
+
+.h2{
+  text-align: center;
 }
