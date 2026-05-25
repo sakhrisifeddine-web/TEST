@@ -497,5 +497,71 @@ form label {
   padding-right: 15px;
 }
 
+/* ============ car info ====== */
 
- 
+table  {  
+  width: 100%;
+  border-collapse: collapse;
+  border: #00000000;
+  background-color: #1a1d27;
+  border-radius: 12px;
+  font-family: 'verdana', sans-serif;
+
+}
+th {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid rgba(22, 29, 41, 0.15);
+  background-color: #2d2f4a;
+}
+td {
+  padding: 12px;
+  border-bottom: 1px solid rgba(59,130,246,0.15);
+  background-color: #1c1e28;
+}
+.car-info-img h1{
+  font-family: "Anton SC", sans-serif;
+  justify-content: left;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: left;
+    margin: 0;
+    padding: 30px;
+  font-style: normal;
+}
+#quantity{
+  text-align: center;
+    padding: 3px;
+    border-radius: 7px;
+    background-color: #757781;
+}
+#btn{
+
+}
+#btn:hover{
+ transform: translateY(-3px);
+}
+
+/* ========= orders =======*/
+
+#od-sec{
+  margin-top: 80px;
+}
+#od-sp{
+  
+background-color: #0e25a5;
+}
+#od-card{
+ height: 70%;
+  width: 100%;
+  background-color: #1a1d27;
+}
+
+#od-body img{
+width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+
