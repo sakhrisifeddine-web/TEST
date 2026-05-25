@@ -5,7 +5,7 @@
                 <div calss='h2'>
                     <h2>our Brands</h2>
                 </div>
-                <div>";
+                <div class='brands-i'>";
         foreach($brands as $brand){
             echo"
                 <a href='cars.php?brand={$brand}'>
@@ -19,12 +19,12 @@
     }
     
     function showCategories(){
-        $categories = array("Coupe", "Hatchback", "Pickup", "Sedan", "SUV");
+        $categories = array("Coupe", "Hatchback", "Pickup", "Sedan", "SUV" , "Sports Car" ,  "Electric" , );
         echo "<div class='categories'>
                 <div calss='h2'>
                     <h2>our categories</h2>
                 </div>
-                <div>";
+                <div class='category-1'>";
         foreach($categories as $category){
             echo"
                 <a href='cars.php?&category={$category}'>
@@ -34,7 +34,7 @@
                 </a>
             ";
         }
-        "</div></div>";
+        echo"</div></div>";
     }
     
     function showCarInfo($id){
