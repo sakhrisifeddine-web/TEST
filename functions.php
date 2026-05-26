@@ -56,7 +56,6 @@
         mysqli_query($conn, $sql);
     }
 
-
     function showCarInfo($id){
         include('database_connection.php');
         $sql = "select * from car_info where id = {$id};";
@@ -64,7 +63,7 @@
         $row = mysqli_fetch_assoc($result);
         
         $used_name      = $row['brand'] .' ' . $row['name'];
-        $image          = "images/cars" . $row['image'];
+        $image          = "images/cars/" . $row['image'];
         $description    = $row['description'];
         $color          = $row['color'];
         $brand          = $row['brand'];
@@ -155,7 +154,6 @@
         $conn->close();
     }
 
-    
     function displayCar($row){
         $id         = $row['id'];
         $used_name  = $row['brand'] . ' ' . $row['name'];

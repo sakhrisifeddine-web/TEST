@@ -1,5 +1,5 @@
 <?php
-    if(isset($_POST['submit'])){
+    if(isset($_POST['submit_contact'])){
         $subject = "From : ". $_POST['name'] . "\nEmail : " . $_POST['email'];
         $message = $_POST['message'];
         mail('contact@goldenauto.dz', $subject, $message);
@@ -12,7 +12,7 @@
     <input type="text" name="name" placeholder="Votre nom" required>
     <input type="email" name="email" placeholder="Votre email" required>
     <input type="text" name="massage" placeholder="Votre message" required>
-    <input type="submit" name="submit" value="Envoyer" required>
+    <input type="submit" name="submit_contact" value="Envoyer" required>
   </form>
   <div class="contact" id="contact">
     <h3>Contactez-Nous</h3>
