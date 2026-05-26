@@ -11,10 +11,10 @@
     <div class="navbar">
       <a href="index.html" id="navbrand"> Auto luxe</a>
       <div class="nav-links">
-        <button> <a href="index.html" >Accueil</a>
+        <button> <a href="index.php" >Accueil</a>
         </button>
         <button>
-          <a href="cars.html">Cars</a>
+          <a href="cars.php">Cars</a>
         </button>
         
         <button>
@@ -26,7 +26,7 @@
         </button>
         
         <button>
-          <a href="login.html" >Connexion</a>
+          <a href="login_page.php" >Connexion</a>
         </button>
       </div>
     </div>
@@ -88,11 +88,10 @@
               <img src="images/ibiza.png" alt="">
               </div>    
             <div class="car-meta">
-
               <span> 2023</span>
+              <span>ibiza</span>
             </div>
             <div class="car-price">
-              <span class="car-name">ibiza</span><br>
               <span class="car-amt">6 200 000</span>
             </div>
             <span class="go">Voir Détails →</span>
