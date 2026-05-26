@@ -26,7 +26,6 @@
         <label>choise your filter</label>
         <select name="filter_type" id="filter_type">
           <?php
-          // to display the first filter select 
           if     (isset($_POST['filter_type'])){ displayFilterTypes($_POST['filter_type']);}
           else if(isset($_GET['category'])){     displayFilterTypes('category'); }
           else if(isset($_GET['brand'])){        displayFilterTypes('brand');}

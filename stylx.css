@@ -94,6 +94,15 @@ h2 {
   background-size: cover;
   background-position: center;
 }
+.sifou h3{
+   -webkit-text-stroke: 0.2px rgba(0, 0, 0, 0.993);
+   font-family: 'Permanent Marker', cursive;
+  color: #ffffff;
+  text-align: center;
+   margin: 0%;
+   padding-top: 156px;
+   font-size: 120px;
+}
 
 .sifou h3{
    -webkit-text-stroke: 0.2px rgba(0, 0, 0, 0.993);
